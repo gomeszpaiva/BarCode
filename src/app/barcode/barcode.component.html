@@ -1,0 +1,9 @@
+<h2>Gerador de Código de Barras</h2>
+
+<button (click)="generateBarcode()">Gerar Código de Barras</button>
+<br><br>
+
+<input type="text" [value]="generatedCode" readonly>
+<br><br>
+
+<svg #barcode></svg>
